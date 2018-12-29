@@ -1,0 +1,17 @@
+[01m[K/home/c2-05/ros_ws2/src/move_turtlesim/src/miniTest2.cpp:[m[K In function ‘[01m[Kvoid rotation()[m[K’:
+[01m[K/home/c2-05/ros_ws2/src/move_turtlesim/src/miniTest2.cpp:99:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KvalueRad[m[K’
+   cout <<"you selected: " valueRad <<"radians"<<endl;
+[01;32m[K                           ^[m[K
+[01m[K/home/c2-05/ros_ws2/src/move_turtlesim/src/miniTest2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/c2-05/ros_ws2/src/move_turtlesim/src/miniTest2.cpp:139:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kfquit[m[K’ was not declared in this scope
+ while(!fquit){
+[01;32m[K        ^[m[K
+[01m[K/home/c2-05/ros_ws2/src/move_turtlesim/src/miniTest2.cpp:169:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kgetch[m[K’ was not declared in this scope
+ }while (getch()=='e'
+[01;32m[K               ^[m[K
+[01m[K/home/c2-05/ros_ws2/src/move_turtlesim/src/miniTest2.cpp:171:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kros[m[K’
+   ros::spin();
+[01;32m[K   ^[m[K
+make[2]: *** [CMakeFiles/miniTest2.dir/src/miniTest2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/miniTest2.dir/all] Error 2
+make: *** [all] Error 2

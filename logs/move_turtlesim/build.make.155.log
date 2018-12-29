@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target miniTest2[0m
+[ 14%] Built target move_circle
+[ 21%] [32mBuilding CXX object CMakeFiles/miniTest2.dir/src/miniTest2.cpp.o[0m
+[ 35%] Built target make_box
+[ 50%] Built target vacuum
+[ 64%] Built target move_spiral
+[ 78%] Built target miniTest1
+[ 92%] Built target move_turtlesim
+[100%] [32m[1mLinking CXX executable /home/c2-05/ros_ws2/devel/.private/move_turtlesim/lib/move_turtlesim/miniTest2[0m
+[100%] Built target miniTest2

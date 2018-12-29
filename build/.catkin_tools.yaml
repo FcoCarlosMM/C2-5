@@ -1,0 +1,6 @@
+devel_space: /home/c2-05/ros_ws2/devel
+install: false
+install_space: /home/c2-05/ros_ws2/install
+profile: default
+source_space: /home/c2-05/ros_ws2/src
+workspace: /home/c2-05/ros_ws2

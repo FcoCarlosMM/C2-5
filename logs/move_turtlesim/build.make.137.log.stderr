@@ -1,0 +1,11 @@
+[01m[K/home/c2-05/ros_ws2/src/move_turtlesim/src/miniTest2.cpp:[m[K In function ‘[01m[Kint rotdirection()[m[K’:
+[01m[K/home/c2-05/ros_ws2/src/move_turtlesim/src/miniTest2.cpp:18:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+   dir = 1+rand()%(3-1));
+[01;32m[K                       ^[m[K
+[01m[K/home/c2-05/ros_ws2/src/move_turtlesim/src/miniTest2.cpp:[m[K In function ‘[01m[Kvoid bothWay()[m[K’:
+[01m[K/home/c2-05/ros_ws2/src/move_turtlesim/src/miniTest2.cpp:51:26:[m[K [01;31m[Kerror: [m[Klvalue required as left operand of assignment
+         if(rotdirection()=1){
+[01;32m[K                          ^[m[K
+make[2]: *** [CMakeFiles/miniTest2.dir/src/miniTest2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/miniTest2.dir/all] Error 2
+make: *** [all] Error 2
